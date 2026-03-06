@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Scroll-Driven Hero Animation
 
-## Getting Started
+A **scroll-driven Hero Section animation** built with **Next.js**, **GSAP**, and **Tailwind CSS**, inspired by the “WELCOME ITZFIZZ” scroll-car animation.
 
-First, run the development server:
+Experience a **car moving along a road**, letters revealing as the car passes, and animated stats boxes that fade in as you scroll.
 
-```bash
+---
+
+## 🔥 Live Demo
+
+[View Live Demo](https://scroll-driven-hero-animation.vercel.app)  
+*(Replace this link with your actual Vercel deployment URL if different)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 16** (App Router)  
+- **React.js**  
+- **GSAP + ScrollTrigger**  
+- **Tailwind CSS**  
+- **JavaScript (JSX)**  
+
+---
+
+## ⚡ Features
+
+- Scroll-linked **car animation**  
+- Dynamic **trail effect** following the car  
+- Staggered **letter reveal** in the headline  
+- Animated **statistics boxes** appearing on scroll  
+- Fully **responsive** and smooth  
+- Easy to **customize text, colors, car image, and stats**
+
+---
+
+## 📂 Project Structure
+
+```text
+scroll-driven-hero-animation/
+├─ app/
+│  └─ page.jsx            # Home page importing HeroSection
+├─ components/
+│  └─ HeroSection.jsx     # Scroll-driven Hero Section
+├─ public/
+│  └─ car.png             # Car image
+├─ styles/
+│  └─ globals.css
+├─ package.json
+└─ README.md
+```
+## 🚀 Getting Started
+
+# Clone the repository
+```
+git clone https://github.com/<your-username>/scroll-driven-hero-animation.git
+cd scroll-driven-hero-animation
+```
+# Install dependencies
+```
+npm install
+# or
+yarn
+```
+# Run the development server
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+Open http://localhost:3000
+ to see the animation.
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
+- Replace public/car.png with your own car image.
+- Update headline inside HeroSection.jsx.
+- Modify the stats array in HeroSection.jsx to change stats boxes.
+- Adjust colors via Tailwind CSS classes or inline styles.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+## 📌 Deployment (Vercel)
+- Push your project to GitHub.
+- Go to Vercel
+   - → New Project → Import Git Repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Select your repository scroll-driven-hero-animation.
+- Vercel detects Next.js automatically → click Deploy.
+- Your live URL will be provided, e.g., https://scroll-driven-hero-animation.vercel.app.
 
-## Learn More
+---
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- This project is open-source and free to use for personal, educational, or demo purposes.
+---
