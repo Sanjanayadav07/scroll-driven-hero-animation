@@ -6,13 +6,6 @@ Experience a **car moving along a road**, letters revealing as the car passes, a
 
 ---
 
-## 🔥 Live Demo
-
-[View Live Demo](https://scroll-driven-hero-animation.vercel.app)  
-*(Replace this link with your actual Vercel deployment URL if different)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Next.js 16** (App Router)  
